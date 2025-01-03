@@ -3,5 +3,12 @@
 h1,
 h2,
 h3 {
+  text-transform: uppercase;
   font-family: 'Playfair Display', serif;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
 }
