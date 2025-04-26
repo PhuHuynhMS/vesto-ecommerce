@@ -30,7 +30,9 @@ const submitForm = getSubmitFn(loginForm, (values) => {
     <Form @submit="submitForm" :validation-schema="loginForm">
       <!-- Phone Number -->
       <div class="mb-3">
-        <label for="phone-number" class="form-label text-muted">Phone Number</label>
+        <label for="phone-number" class="form-label text-muted"
+          >Phone Number</label
+        >
         <Field
           type="text"
           class="form-control"
@@ -54,7 +56,9 @@ const submitForm = getSubmitFn(loginForm, (values) => {
       </div>
       <!-- Forgot Password -->
       <div class="text-end">
-        <a href="#" class="text-decoration-none text-primary small">Forgot password?</a>
+        <a href="#" class="text-decoration-none text-primary small"
+          >Forgot password?</a
+        >
       </div>
       <!-- Login Button -->
       <div class="d-grid mt-4">
@@ -73,7 +77,10 @@ const submitForm = getSubmitFn(loginForm, (values) => {
       </div>
       <!-- Register -->
       <div class="row mt-3 text-end text-muted">
-        <p>You don't have an account? <a href="/register" class="text-primary">Register</a></p>
+        <p>
+          You don't have an account?
+          <a href="/register" class="text-primary">Register</a>
+        </p>
       </div>
     </Form>
   </div>
